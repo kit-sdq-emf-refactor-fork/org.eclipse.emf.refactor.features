@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.eclipse.emf.refactor.example.feature"
+      id="org.eclipse.emf.refactor.examples.feature"
       label="EMF Refactor - Examples (Incubation)"
       version="0.6.0.qualifier"
       provider-name="Eclipse Modeling Project">
