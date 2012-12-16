@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.eclipse.emf.refactor.generator.feature"
-      label="EMF Refactor - Generator (Incubation)"
-      version="0.6.0.qualifier"
+      id="org.eclipse.emf.refactor.examples.henshin.feature"
+      label="EMF Refactor - Examples Henshin (Incubation)"
+      version="0.7.0"
       provider-name="Eclipse Modeling Project">
 
    <description>
-      EMF Refactor - Generator (Incubation)
+      EMF Refactor - Examples Henshin (Incubation)
    </description>
 
    <copyright url="http://www.eclipse.org/legal/epl-v10.html">
@@ -17,7 +17,7 @@ which accompanies this distribution, and is available at
 http://www.eclipse.org/legal/epl-v10.html
    </copyright>
 
-   <license url="license.html">
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
       ECLIPSE FOUNDATION SOFTWARE USER AGREEMENT
 March 17, 2005
 
@@ -116,23 +116,52 @@ and re-export of encryption software, to see if this is permitted.
 Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in the United States, other countries, or both.\n
    </license>
 
-   <url>
-      <update label="Eclipse Modeling Framework Technologies (EMFT) Updates" url="http://www.eclipse.org/modeling/emft/updates/"/>
-      <discovery label="Eclipse Modeling Framework Technologies (EMFT) Updates" url="http://www.eclipse.org/modeling/emft/updates/"/>
-   </url>
-
    <requires>
       <import plugin="org.eclipse.ui"/>
       <import plugin="org.eclipse.core.runtime"/>
-      <import plugin="org.eclipse.core.resources" version="3.6.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.jdt.core" version="3.6.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.emf.ecore" version="2.6.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.emf.codegen" version="2.6.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.emf.ecore.change"/>
+      <import plugin="org.eclipse.ltk.core.refactoring"/>
+      <import plugin="org.eclipse.ltk.ui.refactoring"/>
    </requires>
 
    <plugin
-         id="org.eclipse.emf.refactor.generator"
+         id="org.eclipse.emf.refactor.metrics.ecore.henshin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.refactor.metrics.uml24.henshin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.refactor.refactorings.ecore.henshin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.refactor.refactorings.uml24.henshin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.refactor.smells.ecore.henshin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.refactor.smells.uml24.henshin"
          download-size="0"
          install-size="0"
          version="0.0.0"
