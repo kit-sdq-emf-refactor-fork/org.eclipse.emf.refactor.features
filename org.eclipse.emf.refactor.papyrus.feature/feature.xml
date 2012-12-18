@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.refactor.papyrus.feature"
       label="EMF Refactor - Papyrus (Incubation)"
-      version="0.7.0"
+      version="0.7.0.qualifier"
       provider-name="Eclipse Modeling Project">
 
    <description>
@@ -116,6 +116,11 @@ and re-export of encryption software, to see if this is permitted.
 
 Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in the United States, other countries, or both.\n
    </license>
+
+   <url>
+      <update label="EMF Refactor Updates" url="http://download.eclipse.org/emf-refactor/updates"/>
+      <discovery label="EMF Refactor Updates" url="http://download.eclipse.org/emf-refactor"/>
+   </url>
 
    <requires>
       <import plugin="org.eclipse.ui"/>
