@@ -124,6 +124,10 @@ Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in t
    <requires>
       <import plugin="org.eclipse.ui"/>
       <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.emf.refactor.metrics"/>
+      <import plugin="org.eclipse.emf.refactor.metrics.ocl"/>
+      <import plugin="org.eclipse.uml2.uml"/>
    </requires>
 
    <plugin
