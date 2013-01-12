@@ -155,6 +155,11 @@ Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in t
       <import plugin="org.eclipse.emf.refactor.smells" version="0.7.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.common.ui" version="2.7.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.refactor.smells.configuration" version="0.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources" version="3.8.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.refactor.smells.runtime" version="0.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.refactor.refactoring.runtime" version="0.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.compare.ui" version="1.3.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.core" version="3.8.2" match="greaterOrEqual"/>
    </requires>
 
    <plugin
@@ -247,5 +252,17 @@ Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in t
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.refactor.refactoring.analyzer"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.emf.refactor.smells.eraser"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
 
 </feature>
