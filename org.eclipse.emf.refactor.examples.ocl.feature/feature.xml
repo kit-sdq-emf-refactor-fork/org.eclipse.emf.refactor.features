@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.refactor.examples.ocl.feature"
       label="EMF Refactor - Examples OCL (Incubation)"
-      version="0.7.0.qualifier"
+      version="0.8.0.qualifier"
       provider-name="Eclipse Modeling Project">
 
    <description>

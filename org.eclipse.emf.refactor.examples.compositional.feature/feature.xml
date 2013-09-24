@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.refactor.examples.compositional.feature"
       label="EMF Refactor - Compositional Examples (Incubation)"
-      version="0.7.0.qualifier"
+      version="0.8.0.qualifier"
       provider-name="Eclipse Modeling Project">
 
    <description>
@@ -129,6 +129,14 @@ Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in t
       <import plugin="org.eclipse.uml2.uml" version="4.0.1" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.refactor.metrics.uml24" version="0.7.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.refactor.smells" version="0.7.0" match="greaterOrEqual"/>
+      <import plugin="comrel" version="0.8.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.uml2.uml" version="4.0.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.refactor.refactoring" version="0.8.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.refactor.refactoring.runtime" version="0.8.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ltk.ui.refactoring" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ltk.core.refactoring" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="comrel.interpreter" version="0.8.0" match="greaterOrEqual"/>
+      <import plugin="org.junit" version="4.10.0" match="greaterOrEqual"/>
    </requires>
 
    <plugin
@@ -154,6 +162,13 @@ Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in t
 
    <plugin
          id="org.eclipse.emf.refactor.smells.uml24.metricbased"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.refactor.refactorings.uml24.compositional"
          download-size="0"
          install-size="0"
          version="0.0.0"
