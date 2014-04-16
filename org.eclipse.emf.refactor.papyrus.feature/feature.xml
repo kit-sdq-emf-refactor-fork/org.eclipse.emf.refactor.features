@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.refactor.papyrus.feature"
       label="EMF Refactor - Papyrus (Incubation)"
-      version="0.8.0.qualifier"
+      version="0.9.0.qualifier"
       provider-name="Eclipse Modeling Project">
 
    <description>
@@ -137,6 +137,10 @@ Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in t
       <import plugin="org.eclipse.emf.refactor.refactoring.generator" version="0.7.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.refactor.smells" version="0.7.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.refactor.smells.runtime" version="0.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.refactor.refactoring.configuration" version="0.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ltk.core.refactoring" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ltk.ui.refactoring" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.refactor.refactoring.papyrus" version="0.8.0" match="greaterOrEqual"/>
    </requires>
 
    <plugin

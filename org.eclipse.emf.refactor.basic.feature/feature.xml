@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.refactor.basic.feature"
       label="EMF Refactor - Basic (Incubation)"
-      version="0.8.0.qualifier"
+      version="0.9.0.qualifier"
       provider-name="Eclipse Modeling Project">
 
    <description>
@@ -142,9 +142,6 @@ Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in t
       <import plugin="org.eclipse.emf.ecore" version="2.6.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.codegen" version="2.6.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.compare" version="1.1.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.emf.compare.diff" version="1.1.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.emf.compare.match" version="1.1.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.emf.compare.ui" version="1.1.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.ecore.change" version="2.5.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.ecore.xmi" version="2.5.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.edit" version="2.6.0" match="greaterOrEqual"/>
@@ -159,7 +156,9 @@ Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in t
       <import plugin="org.eclipse.emf.refactor.smells.runtime" version="0.7.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.jdt.core" version="3.8.2" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.refactor.refactoring.runtime" version="0.7.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.emf.compare.ui" version="1.3.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.compare.edit"/>
+      <import plugin="org.eclipse.compare"/>
+      <import plugin="org.eclipse.emf.compare.ide.ui" version="3.0.1" match="greaterOrEqual"/>
    </requires>
 
    <plugin

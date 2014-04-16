@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.emf.refactor.examples.ocl.feature"
       label="EMF Refactor - Examples OCL (Incubation)"
-      version="0.8.0.qualifier"
+      version="0.9.0.qualifier"
       provider-name="Eclipse Modeling Project">
 
    <description>
@@ -138,13 +138,6 @@ Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in t
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.emf.refactor.metrics.uml24.ocl"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.emf.refactor.refactorings.ecore.ocl"
          download-size="0"
          install-size="0"
@@ -160,6 +153,13 @@ Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in t
 
    <plugin
          id="org.eclipse.emf.refactor.smells.ecore.ocl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.refactor.metrics.uml24.ocl"
          download-size="0"
          install-size="0"
          version="0.0.0"
